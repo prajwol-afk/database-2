@@ -1,0 +1,14 @@
+SELECT COUNT(*) AS TOTAL_STUDENTS
+FROM students;
+
+SELECT AVG(cost) AS AVG_COURSE_COST
+FROM courses;
+
+SELECT MAX(salary) AS HIGHEST_SALARY
+FROM instructors;
+
+SELECT MIN(cost) AS LOWEST_COST
+FROM courses;
+
+SELECT SUM(amount_paid) AS TOTAL_PAYMENT
+FROM attendance;
